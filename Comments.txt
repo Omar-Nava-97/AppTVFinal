@@ -1,0 +1,52 @@
+
+Arquitectura Utilizada Modelo Vista Controlador MVC
+Utilice este tipo de arquitectura porque se me hizo mejor la utilización de dividirlo en capas
+el Modelo para alamcenar los datos en este caso los datos que voy a utilizar del llamado de la
+API
+La vista para definir la interfaz
+Y el controlador para hacer la conexión entre el modelo y la vista para tener un mejor manejo
+sincrono de las otras capas
+
+Lista de librerias externas:
+En este caso no utilice librerias de tercero, pero una posible implementación que hubiera
+realizado el desarrollo de una mejor manera era utilizar la libreria Alamofire que principalmente
+funciona para hacer de una manera muy sencilla el consumo de servicios API REST, esto ahorraria
+lineas de codigo y evitar posibles problemas al cosumir una API.
+
+¿Qué partes de tu código pueden ser mejoradas si tuvieras más tiempo?
+En este caso utilice Storyboard para el desarrollo de la app, pero en definitiva si pudiera desarrollar la app otra vez utilizaria SwiftUI ya que en este Framework no es necesario utilizar los constraints y StackViews, que fue la parte que me quito la mayoria de tiempo al estar probando como se visualizaba en diferentes dispositivos y con SwiftUI se puede ahorrar estos pasos.
+
+Tambien para la persistencia de Datos utilizaria user Defaults o implementar un DB como firebase, SQLite ya que en mi caso para la persistencia de datos utilice Core Data lo cual me dio problemas al almcenar los datos de la API en la entity que agregue de Core Data, por eso realice el DatabaseHandler para tener un mejor manejo de las acciones de crear, agregar, eliminar.
+
+Otra posible implementación seria que al momento de agregar a favoritos haya una especie de notificación en el simbolo de favoritos, alguna especie de numero en el tab bar para indicar que se agrego uno
+
+¿Cuáles fueron los mayores problemas que encontraste en el desarollo de la práctica y como los resolviste?
+El mayor problema fue en caunto la persistencia de datos para mandar a favoritos, si pude implemntar la funcion de agregar datos, visualizarlos y poder eliminarlos pero los datos de la API me ocasianaba algunos bugs, el cual hice una pequeña solución que era agregarlos de manera manual a la parte de favoritos
+
+Otro problema que tuve en el desarrollo fue la parte de los constraints y algunas soluciones fueron implementar correctamente stack views y dar tamaño definido a las imagenes
+
+Al momento de crear la lista personalizada de los programas tuve crear una celda personalizada ViewCell con un archivo .xib para poder utilizar campos personalizados y poder poner la imagen
+
+El punto que no pude solucionar satisfactoriamente fue agregar a favoritos debido al error que me mandaba con las persistencia de datos al agregar los datos de la API, para resolverlo implementaria de mejor manera los atributos de la entidad, realice una pequeña demostración en favoritos de agregarlo manual para visualizar la persistencia y el guardado correcto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

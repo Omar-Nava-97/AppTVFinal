@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9201267128AC58AC00E8258A /* CeldaProgramaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9201266F28AC58AC00E8258A /* CeldaProgramaTableViewCell.swift */; };
+		9201267228AC58AC00E8258A /* CeldaProgramaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9201267028AC58AC00E8258A /* CeldaProgramaTableViewCell.xib */; };
+		9201267428AC6B8800E8258A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9201267328AC6B8800E8258A /* DetailViewController.swift */; };
+		9201267628AC706000E8258A /* Programa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9201267528AC706000E8258A /* Programa.swift */; };
 		9290FBCD28AC2BF600A5BB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FBCC28AC2BF600A5BB50 /* AppDelegate.swift */; };
 		9290FBCF28AC2BF600A5BB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FBCE28AC2BF600A5BB50 /* SceneDelegate.swift */; };
-		9290FBD128AC2BF600A5BB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FBD028AC2BF600A5BB50 /* ViewController.swift */; };
+		9290FBD128AC2BF600A5BB50 /* ListViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FBD028AC2BF600A5BB50 /* ListViewViewController.swift */; };
 		9290FBD428AC2BF600A5BB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9290FBD228AC2BF600A5BB50 /* Main.storyboard */; };
 		9290FBD728AC2BF600A5BB50 /* AppTVFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9290FBD528AC2BF600A5BB50 /* AppTVFinal.xcdatamodeld */; };
-		9290FBD928AC2BF800A5BB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9290FBD828AC2BF800A5BB50 /* Assets.xcassets */; };
 		9290FBDC28AC2BF800A5BB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9290FBDA28AC2BF800A5BB50 /* LaunchScreen.storyboard */; };
+		9290FBE428AC2C0800A5BB50 /* Shows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290FBE328AC2C0800A5BB50 /* Shows.swift */; };
+		9293039F28AEC24C009C5370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9293039E28AEC24C009C5370 /* Assets.xcassets */; };
+		9293041228AEDE0D009C5370 /* Comments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9293041128AEDE0D009C5370 /* Comments.txt */; };
+		9295FC5328AD390D00A12108 /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FC5228AD390D00A12108 /* FavoritosViewController.swift */; };
+		9295FC5528AD3C5F00A12108 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FC5428AD3C5F00A12108 /* User.swift */; };
+		9295FC5728AD3D3D00A12108 /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FC5628AD3D3D00A12108 /* DatabaseHandler.swift */; };
+		9295FC5928AD62E400A12108 /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FC5828AD62E400A12108 /* ApiHandler.swift */; };
+		9295FC5B28AD69F200A12108 /* userModelServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9295FC5A28AD69F200A12108 /* userModelServer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9201266F28AC58AC00E8258A /* CeldaProgramaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaProgramaTableViewCell.swift; sourceTree = "<group>"; };
+		9201267028AC58AC00E8258A /* CeldaProgramaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaProgramaTableViewCell.xib; sourceTree = "<group>"; };
+		9201267328AC6B8800E8258A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9201267528AC706000E8258A /* Programa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programa.swift; sourceTree = "<group>"; };
 		9290FBC928AC2BF600A5BB50 /* AppTVFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTVFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9290FBCC28AC2BF600A5BB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9290FBCE28AC2BF600A5BB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9290FBD028AC2BF600A5BB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9290FBD028AC2BF600A5BB50 /* ListViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewViewController.swift; sourceTree = "<group>"; };
 		9290FBD328AC2BF600A5BB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9290FBD628AC2BF600A5BB50 /* AppTVFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppTVFinal.xcdatamodel; sourceTree = "<group>"; };
-		9290FBD828AC2BF800A5BB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9290FBDB28AC2BF800A5BB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9290FBDD28AC2BF800A5BB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9290FBE328AC2C0800A5BB50 /* Shows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shows.swift; sourceTree = "<group>"; };
+		9293039E28AEC24C009C5370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9293041128AEDE0D009C5370 /* Comments.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Comments.txt; sourceTree = "<group>"; };
+		9295FC5228AD390D00A12108 /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
+		9295FC5428AD3C5F00A12108 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9295FC5628AD3D3D00A12108 /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		9295FC5828AD62E400A12108 /* ApiHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		9295FC5A28AD69F200A12108 /* userModelServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModelServer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +64,7 @@
 		9290FBC028AC2BF600A5BB50 = {
 			isa = PBXGroup;
 			children = (
+				9293041128AEDE0D009C5370 /* Comments.txt */,
 				9290FBCB28AC2BF600A5BB50 /* AppTVFinal */,
 				9290FBCA28AC2BF600A5BB50 /* Products */,
 			);
@@ -58,16 +81,42 @@
 		9290FBCB28AC2BF600A5BB50 /* AppTVFinal */ = {
 			isa = PBXGroup;
 			children = (
+				9293039D28AEA37E009C5370 /* Controller */,
+				9293039C28AEA354009C5370 /* Model */,
 				9290FBCC28AC2BF600A5BB50 /* AppDelegate.swift */,
 				9290FBCE28AC2BF600A5BB50 /* SceneDelegate.swift */,
-				9290FBD028AC2BF600A5BB50 /* ViewController.swift */,
+				9295FC5628AD3D3D00A12108 /* DatabaseHandler.swift */,
 				9290FBD228AC2BF600A5BB50 /* Main.storyboard */,
-				9290FBD828AC2BF800A5BB50 /* Assets.xcassets */,
 				9290FBDA28AC2BF800A5BB50 /* LaunchScreen.storyboard */,
 				9290FBDD28AC2BF800A5BB50 /* Info.plist */,
 				9290FBD528AC2BF600A5BB50 /* AppTVFinal.xcdatamodeld */,
+				9293039E28AEC24C009C5370 /* Assets.xcassets */,
+				9201266F28AC58AC00E8258A /* CeldaProgramaTableViewCell.swift */,
+				9201267028AC58AC00E8258A /* CeldaProgramaTableViewCell.xib */,
+				9295FC5828AD62E400A12108 /* ApiHandler.swift */,
 			);
 			path = AppTVFinal;
+			sourceTree = "<group>";
+		};
+		9293039C28AEA354009C5370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9295FC5428AD3C5F00A12108 /* User.swift */,
+				9201267528AC706000E8258A /* Programa.swift */,
+				9295FC5A28AD69F200A12108 /* userModelServer.swift */,
+				9290FBE328AC2C0800A5BB50 /* Shows.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9293039D28AEA37E009C5370 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9295FC5228AD390D00A12108 /* FavoritosViewController.swift */,
+				9201267328AC6B8800E8258A /* DetailViewController.swift */,
+				9290FBD028AC2BF600A5BB50 /* ListViewViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9201267228AC58AC00E8258A /* CeldaProgramaTableViewCell.xib in Resources */,
 				9290FBDC28AC2BF800A5BB50 /* LaunchScreen.storyboard in Resources */,
-				9290FBD928AC2BF800A5BB50 /* Assets.xcassets in Resources */,
+				9293039F28AEC24C009C5370 /* Assets.xcassets in Resources */,
+				9293041228AEDE0D009C5370 /* Comments.txt in Resources */,
 				9290FBD428AC2BF600A5BB50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +193,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9290FBD728AC2BF600A5BB50 /* AppTVFinal.xcdatamodeld in Sources */,
-				9290FBD128AC2BF600A5BB50 /* ViewController.swift in Sources */,
+				9290FBD128AC2BF600A5BB50 /* ListViewViewController.swift in Sources */,
+				9201267628AC706000E8258A /* Programa.swift in Sources */,
+				9201267128AC58AC00E8258A /* CeldaProgramaTableViewCell.swift in Sources */,
+				9295FC5728AD3D3D00A12108 /* DatabaseHandler.swift in Sources */,
+				9295FC5B28AD69F200A12108 /* userModelServer.swift in Sources */,
+				9290FBE428AC2C0800A5BB50 /* Shows.swift in Sources */,
 				9290FBCD28AC2BF600A5BB50 /* AppDelegate.swift in Sources */,
+				9295FC5928AD62E400A12108 /* ApiHandler.swift in Sources */,
 				9290FBCF28AC2BF600A5BB50 /* SceneDelegate.swift in Sources */,
+				9201267428AC6B8800E8258A /* DetailViewController.swift in Sources */,
+				9295FC5528AD3C5F00A12108 /* User.swift in Sources */,
+				9295FC5328AD390D00A12108 /* FavoritosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
